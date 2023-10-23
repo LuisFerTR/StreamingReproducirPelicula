@@ -9,7 +9,7 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
 import com.google.gson.Gson;
-import com.soa.business.RentasBusiness;
+import com.soa.business.ReproducirPeliculaBusiness;
 import com.soa.dto.Respuesta;
 import com.soa.dto.Renta;
 
@@ -20,7 +20,7 @@ import com.soa.dto.Renta;
 public class ArtemisListenerQuery {
     
     @Autowired
-    private RentasBusiness business;
+    private ReproducirPeliculaBusiness business;
     
     @Autowired
     private JmsSender sender;
